@@ -1,2 +1,6 @@
-# base-cookbook
-Handy snippets for doing things on Base
+# Base Cookbook
+Handy experimental snippets for developing on Base
+
+## License
+
+[MIT License](LICENSE)
