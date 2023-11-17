@@ -1,12 +1,14 @@
-## Send approval transaction to the DAI ERC20 token contract to let the standard
-bridge contract spend the token:
+## Send approval transaction to the DAI ERC20 token contract to let the standard bridge contract spend the token:
+
 ```
 cast send 0x6b175474e89094c44da98b954eedeac495271d0f --rpc-url
 https://mainnet-infura.wallet.coinbase.com "approve(address,uint256)"
 0x3154Cf16ccdb4C6d922629664174b904d80F2C35 1000000000000000000 --gas-limit
 100000 --private-key <private key>
 ```
+
 ## Invoke bridgeERC20 on the L1StandardBridge contract for Base:
+
 ```
 cast send 0x3154Cf16ccdb4C6d922629664174b904d80F2C35 --rpc-url
 https://mainnet-infura.wallet.coinbase.com
